@@ -1,38 +1,42 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+  display:flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#eachCountry{
+  background-color: #427EF1;
+  margin:15px;
+  width: 100%;
+  border-radius: 15px;
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+  padding:20px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#eachCountry p{
+  margin-top: 20px;
+}
+
+#allCountries{
+  display:flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+#countries{
+  display:flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+#country-details{
+  width:50%;
+  margin:15px;
+  background-color: #E1E9F9;
+  height:max-content;
+  padding: 30px;
+  border-radius: 15px;
 }
